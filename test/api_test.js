@@ -73,4 +73,18 @@ describe('API test', () => {
       .end(done);
   });
 
+  it('should be able to get all keys in the namespace', (done) => {
+    server.get(`/${namespace}`).send()
+      .expect(200)
+      .expect('content-type', 'application/json')
+      .end((err, res) => {
+        try {
+          JSON.parse(res.text).should.deepEqual([{"label":values[2],"key":keys[0]},{"label":values[1],"key":keys[1]}]);
+        } catch(e) {
+          done(e);
+          return;
+        }
+        done();
+      });
+  });
 });
