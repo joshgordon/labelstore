@@ -1,5 +1,7 @@
 # labelstore
 
+![Travis CI](https://travis-ci.org/joshgordon/labelstore.svg?branch=master)
+
 This is a straightforward REST API for storing keys and values. The idea
 is that if you have a webapp on an embedded device that has read only memory
 In my case, the raspberry pi running my 
