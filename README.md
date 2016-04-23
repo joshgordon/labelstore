@@ -1,6 +1,8 @@
 # labelstore
 
-![Travis CI](https://travis-ci.org/joshgordon/labelstore.svg?branch=master)
+[![Travis CI](https://travis-ci.org/joshgordon/labelstore.svg?branch=master)](https://travis-ci.org/joshgordon/labelstore)
+
+[![NPM](https://nodei.co/npm/labelstore.png)](https://nodei.co/npm/labelstore/)
 
 This is a straightforward REST API for storing keys and values. The idea
 is that if you have a webapp on an embedded device that has read only memory
