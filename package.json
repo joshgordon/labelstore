@@ -6,11 +6,9 @@
   "scripts": {
     "test": "mocha --compilers js:babel-core/register"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Josh Gordon <npm@joshgordon.net>",
+  "license": "BSD-3-Clause",
   "dependencies": {
-    "babel-core": "^6.7.7",
-    "babel-preset-es2015": "^6.6.0",
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "q": "^1.4.1",
@@ -18,9 +16,27 @@
   },
   "devDependencies": {
     "babel": "^6.5.2",
+    "babel-core": "^6.7.7",
+    "babel-preset-es2015": "^6.6.0",
     "babel-runtime": "^6.6.1",
     "mocha": "^2.4.5",
     "should": "^8.3.1",
     "supertest": "^1.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshgordon/labelstore.git"
+  },
+  "keywords": [
+    "label",
+    "store",
+    "labelstore"
+  ],
+  "bugs": {
+    "url": "https://github.com/joshgordon/labelstore/issues"
+  },
+  "homepage": "https://github.com/joshgordon/labelstore#readme"
 }
