@@ -6,6 +6,7 @@ let d = new db();
 
 let app = express();
 
+app.use('/', express.static(__dirname + '/../public'));
 app.use('/', routes(d));
 
 app.listen(3000, () => {
