@@ -11,6 +11,6 @@ let port = process.env.PORT || 5000;
 app.use('/', express.static(__dirname + '/../public'));
 app.use('/', routes(d));
 
-app.listen(5000, () => {
-  console.log("listening on 5000");
+app.listen(port, () => {
+  console.log("listening on " + port);
 })
