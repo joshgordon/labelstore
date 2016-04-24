@@ -6,6 +6,6 @@ copy package.json /usr/src/app
 run npm install
 copy . /usr/src/app
 run npm run build
-expose 3000
+expose 5000
 
 cmd ["npm", "start"]
